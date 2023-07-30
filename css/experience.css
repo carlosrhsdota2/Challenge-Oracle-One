@@ -1,0 +1,95 @@
+.experience{
+    display: flex;
+    width: 1136px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.experience__section__title{
+    color: #464646;
+    text-align: center;
+    font-size: 32px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.experience__line{
+    display: flex;
+    width: 1136px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.experience__box{
+    display: flex;
+    width: 1136px;
+    height: 406px;
+    align-items: center;
+    gap: 16px;
+}
+
+.experience__info-container{
+    display: flex;
+    width: 368px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.experience__title{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #464646;
+    font-size: 22px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.experience__description{
+    display: flex;
+    width: 560px;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.experience__botao--repo{
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    font-size: 16px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.experience__botao--demo{
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
